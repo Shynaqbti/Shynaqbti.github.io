@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Trirong", serif;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+}
+
+.icons-container {
+    display: flex;
+}
+
+.icon {
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.icon img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover img {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+}
